@@ -8,9 +8,10 @@ import AdminDashboard from "./Admin/AdminDashboard";
 import AdminUsers from "./Admin/AdminUsers";
 import AdminCourses from "./Admin/AdminCourses";
 import AdminContent from "./Admin/AdminContent";
-
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import "./App.css";
 import "./Admin/admin.css";
-
 function App() {
   return (
     <Router>
@@ -32,6 +33,8 @@ function App() {
         <Route path="/admin/users" element={<AdminUsers />} />
         <Route path="/admin/courses" element={<AdminCourses />} />
         <Route path="/admin/content" element={<AdminContent />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
