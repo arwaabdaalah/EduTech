@@ -1,6 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./src/config/db');
+const enrollmentRoutes = require("./src/routes/enrollmentRoutes");
+const assignmentRoutes = require("./src/routes/assignmentRoutes");
 const authRoutes = require('./src/routes/authRoutes');
 const courseRoutes = require('./src/routes/courseRoutes');
 const { notFound, errorHandler } = require('./src/middleware/errorMiddleware');
@@ -14,6 +16,9 @@ app.use(express.json());
 
 app.use('/api/auth', authRoutes);
 app.use('/api/courses', courseRoutes);
+
+app.use("/api/enroll", enrollmentRoutes);
+app.use("/api/assign", assignmentRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
