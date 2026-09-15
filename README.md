@@ -27,3 +27,4 @@ Team Contributions
 | **Youssef Mahmoud** | Authentication UI (Frontend)            |
 | **Khaled Mohamed** | Enrollment and Assignments Features (Backend) & Github repo maintainer |
 | **Ahmed Islam** | Assignments UI (Frontend) |
+| **Youssef Wael** | Shared UI / Form Components & Courses UI (Frontend) |
