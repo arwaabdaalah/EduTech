@@ -1,12 +1,12 @@
-# EduTech — Project Documentation
+# EduTech — Project Documentation 📝
 
-## 1. Project Overview
+## 1. Project Overview 🎯
 
 **EduTech** is a full-stack learning platform designed to connect students with educational courses and learning resources.
 
 The platform provides a student-focused learning experience together with instructor functionality for managing courses and assignments.
 
-## 2. Objectives
+## 2. Objectives 📌
 
 The main objectives of EduTech are to:
 
@@ -17,7 +17,7 @@ The main objectives of EduTech are to:
 * Allow instructors to manage learning content and submissions.
 * Demonstrate collaborative full-stack development.
 
-## 3. Technology Stack
+## 3. Technology Stack 🧱
 
 ### Frontend
 
@@ -42,7 +42,7 @@ The main objectives of EduTech are to:
 * GitHub
 * Postman
 
-## 4. System Architecture
+## 4. System Architecture 📜
 
 EduTech follows a client-server architecture:
 
@@ -67,7 +67,7 @@ EduTech follows a client-server architecture:
 └─────────────────────┘
 ```
 
-## 5. Project Structure
+## 5. Project Structure 🧩
 
 ```text
 EduTech/
@@ -93,7 +93,7 @@ EduTech/
 └── README.md
 ```
 
-## 6. Main Features
+## 6. Main Features ✨
 
 ### Authentication
 
@@ -120,7 +120,7 @@ EduTech/
 * Grade submissions
 * Provide feedback
 
-## 7. User Roles
+## 7. User Roles 🙍🏻‍♂️
 
 ### Student
 
@@ -144,7 +144,7 @@ Instructors can:
 * Grade assignments.
 * Provide feedback.
 
-## 8. Backend
+## 8. Backend ⚙️
 
 The backend is built with Node.js and Express.
 
@@ -195,7 +195,7 @@ POST /api/assignments/:assignmentId/submissions
 GET  /api/assignments/:assignmentId/submissions/me
 ```
 
-## 9. Database Relationships
+## 9. Database Relationships 🗃️
 
 The main relationships are:
 
@@ -217,7 +217,7 @@ An assignment belongs to a course.
 
 An assignment submission connects a student to an assignment.
 
-## 10. Authorization
+## 10. Authorization 🔐
 
 The system uses authentication and role-based authorization to restrict functionality.
 
@@ -229,7 +229,7 @@ For example:
 
 The backend also checks ownership where necessary, such as ensuring an instructor manages assignments belonging to their own course.
 
-## 11. Development Workflow
+## 11. Development Workflow 📚
 
 The project was developed collaboratively using Git and GitHub.
 
@@ -253,7 +253,7 @@ Merge
 
 This allowed the team to work on different features independently while maintaining a shared codebase.
 
-## 12. Team Contributions
+## 12. Team Contributions 🤝
 
 | Member       | Contribution                         |
 | ------------ | ------------------------------------ |
